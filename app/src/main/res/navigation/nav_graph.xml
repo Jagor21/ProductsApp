@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/products_list_fragment">
+
+    <fragment
+        android:id="@+id/products_list_fragment"
+        android:name="com.jagor.testproductsapp.presentation.fragments.ProductsListFragment"
+        android:label="ProductsListFragment"
+        tools:layout="@layout/fragment_list_products">
+        <action
+            android:id="@+id/action_fragment_list_products_to_fragment_product"
+            app:destination="@id/product_fragment">
+            <argument
+                android:name="productId"
+                android:defaultValue="NONE"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/product_fragment"
+        android:name="com.jagor.testproductsapp.presentation.fragments.ProductFragment"
+        android:label="ProductFragment"
+        tools:layout="@layout/fragment_product">
+        <argument
+            android:name="productId"
+            android:defaultValue="NONE"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

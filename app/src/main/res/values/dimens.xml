@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tv_margin_15">15dp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="product_fragment_iv_height_400">400dp</dimen>
+    <dimen name="product_fragment_tv_name_size_32">32sp</dimen>
+    <dimen name="product_fragment_tv_price_size_24">24sp</dimen>
+    <dimen name="product_fragment_tv_description_size_24">24sp</dimen>
+    <dimen name="product_item_height_100">100dp</dimen>
+    <dimen name="product_item_margin_bottom_8">8dp</dimen>
+    <dimen name="product_item_radius_10">10dp</dimen>
+    <dimen name="product_item_iv_width_100">100dp</dimen>
+    <dimen name="product_item_padding_8">8dp</dimen>
+    <dimen name="product_item_tv_name_size_24">24sp</dimen>
+    <dimen name="product_item_tv_price_size_20">20sp</dimen>
+    <dimen name="product_error_margin_bottom_24">24dp</dimen>
+</resources>

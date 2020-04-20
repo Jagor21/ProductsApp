@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TestProductsApp</string>
+    <string name="product_tv_product_price">Price: %d$</string>
+    <string name="product_download_products_error">Error: unable to get products\n\nReason: %s</string>
+    <string name="product_download_product_error">Error: unable to get product\n\nReason: %s</string>
+    <string name="product_unknown_error">Error: unknown error</string>
+    <string name="product_please_check_your_connection">Please check your internet connection\n\n%s</string>
+    <string name="products_try_again">Try again</string>
+    <string name="product_description">Description:\n\t\t\t%s</string>
+    <string name="product_item_tv_name_placeholder">Apple</string>
+</resources>

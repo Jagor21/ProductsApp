@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/product_item_height_100"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/product_item_margin_bottom_8"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardBackgroundColor="@color/product_item_bg_color"
+    android:foreground="?android:selectableItemBackground"
+    android:orientation="vertical"
+    app:cardCornerRadius="@dimen/product_item_radius_10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_product_image"
+            android:layout_width="@dimen/product_item_iv_width_100"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:background="@android:color/white"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/product_item_padding_8"
+            android:orientation="vertical"
+            android:padding="@dimen/product_item_padding_8">
+
+            <TextView
+                android:id="@+id/tv_product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/product_item_margin_bottom_8"
+                tools:text="@string/product_item_tv_name_placeholder"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/product_item_tv_name_size_24"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_product_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/product_tv_product_price"
+                android:textSize="@dimen/product_item_tv_price_size_20"
+                android:textStyle="italic"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
